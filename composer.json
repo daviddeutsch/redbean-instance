@@ -1,0 +1,24 @@
+{
+	"name":              "daviddeutsch/redbean-instance",
+	"description":       "Instead of using the RedBean facade, use an instance of it.",
+	"minimum-stability": "stable",
+	"version":           "1.0.0",
+	"license":           "BSD",
+	"authors": [
+		{
+			"name":     "David Deutsch",
+			"email":    "skore@valanx.org",
+			"homepage": "http://valanx.org",
+			"role":     "Chief Botanist"
+		}
+	],
+	"require": {
+		"gabordemooij/redbean": ">=3.2,<4.0"
+	},
+	"suggest": {
+		"daviddeutsch/redbean-prefix": "For when you absolutely, positively need prefixed table names."
+	},
+	"autoload": {
+		"classmap": ["/src/RedBean_Instance"]
+	}
+}
